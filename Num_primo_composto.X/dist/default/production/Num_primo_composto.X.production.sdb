@@ -1,0 +1,197 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"55 C:\Users\Pedro\MPLABXProjects\Num_primo_composto.X\dispLCD4vias.c
+[v _dispLCD_instReg dispLCD_instReg `(v  1 e 1 0 ]
+"88
+[v _dispLCD_dataReg dispLCD_dataReg `(v  1 e 1 0 ]
+"104
+[v _dispLCD_lincol dispLCD_lincol `(v  1 e 1 0 ]
+"110
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"135
+[v _LCD_str LCD_str `(v  1 e 1 0 ]
+"152
+[v _LCD_Texto LCD_Texto `(v  1 e 1 0 ]
+"166
+[v _LCD_num LCD_num `(v  1 e 1 0 ]
+"210
+[v _dispLCD_clr dispLCD_clr `(v  1 e 1 0 ]
+"215
+[v _lcd_b0 lcd_b0 `(uc  1 e 1 0 ]
+"220
+[v _lcd_b1 lcd_b1 `(uc  1 e 1 0 ]
+"16 C:\Users\Pedro\MPLABXProjects\Num_primo_composto.X\main.c
+[v _num_primo num_primo `(v  1 e 1 0 ]
+"32
+[v _return_nump return_nump `(i  1 e 2 0 ]
+"37
+[v _main main `(v  1 e 1 0 ]
+[s S120 . 7 `*.27(v 1 init 1 0 `*.27(v 1 string 1 1 `*.27(v 1 str_position 1 2 `*.27(v 1 number 1 3 `*.27(v 1 clr 1 4 `*.27(uc 1 B0 1 5 `*.27(uc 1 B1 1 6 ]
+"29 C:\Users\Pedro\MPLABXProjects\Num_primo_composto.X/library_shelf.h
+[v _print print `S120  1 e 7 0 ]
+"228 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S40 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1619
+[u S49 . 1 `S40 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES49  1 e 1 @136 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+[s S30 . 1 `uc 1 BUS 1 0 :4:0 
+`uc 1 RS 1 0 :1:4 
+`uc 1 EN 1 0 :1:5 
+`uc 1 B0 1 0 :1:6 
+`uc 1 B1 1 0 :1:7 
+]
+"51 C:\Users\Pedro\MPLABXProjects\Num_primo_composto.X\dispLCD4vias.c
+[u S36 . 1 `S30 1 . 1 0 ]
+[v _LCDbits LCDbits `VES36  1 e 1 @8 ]
+"14 C:\Users\Pedro\MPLABXProjects\Num_primo_composto.X\main.c
+[v _value value `uc  1 e 1 0 ]
+"37
+[v _main main `(v  1 e 1 0 ]
+{
+"39
+[v main@valor valor `i  1 a 2 9 ]
+"56
+} 0
+"32
+[v _return_nump return_nump `(i  1 e 2 0 ]
+{
+"35
+} 0
+"16
+[v _num_primo num_primo `(v  1 e 1 0 ]
+{
+[v num_primo@x x `uc  1 a 1 wreg ]
+"18
+[v num_primo@i i `uc  1 a 1 11 ]
+[v num_primo@num_p num_p `uc  1 a 1 10 ]
+[v num_primo@cont cont `uc  1 a 1 9 ]
+"16
+[v num_primo@x x `uc  1 a 1 wreg ]
+"20
+[v num_primo@x x `uc  1 a 1 8 ]
+"30
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 6 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 5 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 4 ]
+"18
+} 0
+"135 C:\Users\Pedro\MPLABXProjects\Num_primo_composto.X\dispLCD4vias.c
+[v _LCD_str LCD_str `(v  1 e 1 0 ]
+{
+[v LCD_str@str str `*.24DCuc  1 p 1 6 ]
+"148
+} 0
+"166
+[v _LCD_num LCD_num `(v  1 e 1 0 ]
+{
+"168
+[v LCD_num@div div `i  1 a 2 5 ]
+"170
+[v LCD_num@sinal sinal `uc  1 a 1 4 ]
+"169
+[v LCD_num@size size `uc  1 a 1 3 ]
+"166
+[v LCD_num@lin lin `uc  1 p 1 9 ]
+[v LCD_num@col col `uc  1 p 1 10 ]
+[v LCD_num@num num `i  1 p 2 11 ]
+[v LCD_num@tam tam `uc  1 p 1 13 ]
+"207
+} 0
+"104
+[v _dispLCD_lincol dispLCD_lincol `(v  1 e 1 0 ]
+{
+[v dispLCD_lincol@lin lin `uc  1 a 1 wreg ]
+[v dispLCD_lincol@lin lin `uc  1 a 1 wreg ]
+[v dispLCD_lincol@col col `uc  1 p 1 3 ]
+"106
+[v dispLCD_lincol@lin lin `uc  1 a 1 5 ]
+"107
+} 0
+"88
+[v _dispLCD_dataReg dispLCD_dataReg `(v  1 e 1 0 ]
+{
+[v dispLCD_dataReg@d d `uc  1 a 1 wreg ]
+[v dispLCD_dataReg@d d `uc  1 a 1 wreg ]
+"90
+[v dispLCD_dataReg@d d `uc  1 a 1 1 ]
+"101
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"110 C:\Users\Pedro\MPLABXProjects\Num_primo_composto.X\dispLCD4vias.c
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"133
+} 0
+"55
+[v _dispLCD_instReg dispLCD_instReg `(v  1 e 1 0 ]
+{
+[v dispLCD_instReg@i i `uc  1 a 1 wreg ]
+[v dispLCD_instReg@i i `uc  1 a 1 wreg ]
+"57
+[v dispLCD_instReg@i i `uc  1 a 1 2 ]
+"85
+} 0
